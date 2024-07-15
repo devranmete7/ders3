@@ -1,0 +1,152 @@
+
+body{
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: rgb(87, 134, 180)  !important;
+}
+.navbar2{
+
+    background-color: rgb(187, 221, 106);
+    width: 100%;
+    height: 55px;
+    position: fixed !important; 
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1030 !important ;  /* Bootstrap navbar'ın önde görünmesini sağlamak için */
+}
+
+
+
+.carousel-inner img {
+    width: 200px;
+    height: 480px ; /* Bu değeri ihtiyacınıza göre ayarlayabilirsiniz */
+  }
+.img-fluid {
+    width: 200px !important;
+}
+
+.text{
+    font-size: 29px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.pargraf{
+    background-color: rgb(180, 235, 53);
+    height: 50px;
+    font-size: 29px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Bu yüksekliği ihtiyacınıza göre ayarlayabilirsiniz */
+  }
+  .img-container img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .card-img-custom {
+    width: 500px !important; 
+    height: 300px !important; 
+    object-fit: cover !important;  
+}
+
+.card-text {
+
+  font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-container {
+  position: fixed;
+  top: 10px !important;
+  right: 10px !important;
+  width: 16px !important;
+  height: 16px !important;
+  color: black !important;
+}
+.align-left {
+  font-size: 100px;
+  text-align: left !important;
+  margin-left: 0 !important; /* H2 başlığı ile hizalı olacak şekilde ayarlandı */
+}
+.dropdown {
+ 
+
+  height: 100% !important;
+  font-size: 20px !important;
+}
+.dropdown-menu {
+
+  width: 300px !important;
+  text-align: center;
+
+}
+ul.liste {
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 16px;
+}
+.resim-linki2 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 13px !important;
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+.resim-linki2:hover {
+  color: #0916cc;
+  /* Hover (fare üzerine geldiğinde) rengi */
+  text-decoration: underline;
+  /* Hover etkisiyle alt çizgi ekler */
+}
+.footer-container {
+  background-color: rgb(87, 134, 180)  !important;
+  height: 200px !important;
+}
+.text-1{
+  font-size: 25px !important;
+
+}
+.nav-link{
+
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #a7a7a7 !important;
+  opacity: 0.5 !important;
+  color: #000 !important;
+  font-size: 19px !important;
+}

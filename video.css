@@ -1,0 +1,138 @@
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 329vh;
+    width: auto;
+  }
+
+  .border-box {
+    border: 2px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Hafif gölge efekti */
+  }
+
+  ul.liste {
+    list-style-type: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 16px;
+  }
+
+  .social-icons svg {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 5px !important;
+    color: white !important;
+    background-color: #adb2b8 !important;
+    border-radius: 40% !important;
+    padding: 9px !important;
+    transition: transform 0.3s !important;
+    /* Hover efekti için geçiş ekle */
+  }
+
+  .social-icons svg:hover {
+    transform: scale(1.1) !important;
+
+  }
+
+  .resimler img {
+    width: 60px !important;
+    height: 60px !important;
+    margin: 5px !important;
+
+  }
+  .resim5{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+
+  }
+  .resim5 img {
+    width: 90px !important;
+    /* Resim genişliği */
+    height: 100px !important;
+    /* Yükseklik otomatik olarak genişliğe göre ayarlanır */
+    border-radius: 5px !important;
+    /* Köşeleri yuvarlar */
+
+  }
+
+  .image-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    /* Resimler arasına boşluk ekler */
+  }
+  .image-container img {
+    width: 84px !important;
+    /* Resim genişliği */
+    height: auto !important;
+    /* Yükseklik otomatik olarak genişliğe göre ayarlanır */
+    border-radius: 5px !important;
+    /* Köşeleri yuvarlar */
+  }
+
+  .resim-linki {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+  }
+
+  .resim-linki2:hover {
+    color: #0916cc;
+    /* Hover (fare üzerine geldiğinde) rengi */
+    text-decoration: underline;
+    /* Hover etkisiyle alt çizgi ekler */
+  }
+
+  .resim-linki2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .custom-card {
+max-width: 540px !important; /* Kartın maksimum genişliği */
+height: 400px !important; /* Kartın yüksekliği */
+}
+  .custom-img {
+    width: 80px !important; /* Resmi sütunun genişliğine göre ayarlar */
+    height: 100px !important; /* Resmin yüksekliğini belirler */
+    object-fit: cover !important;
+   
+    padding: 5px;
+    border-radius: 10px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .navbar2{
+
+    background-color: rgb(187, 221, 106);
+    width: 100%;
+    height: 55px;
+    position: fixed !important; 
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1030 !important ;  /* Bootstrap navbar'ın önde görünmesini sağlamak için */
+}
+.text2 {
+
+    text-align: center !important;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    padding: 10px !important;  
+
+}
